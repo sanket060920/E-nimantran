@@ -22,7 +22,7 @@ const ResponsiveImage = () => {
         <h1>Your Header</h1>
         <p>
           Your small paragraph with around 50 words goes here. Your small paragraph with around 50
-          words goes here. Your small paragraph with around 50 words goes here.
+          words goes here. Your small paragraph with around 50 words  here.
         </p>
       </div>
     </div>    <div className="container">
