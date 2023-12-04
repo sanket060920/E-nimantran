@@ -21,7 +21,7 @@ width: 100%;
     font-family: "Kalam", Sans-serif;
     padding: 200px;
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.3); /* Red background with 50% opacity */
+    background: linear-gradient(to bottom right, #2600ff, #ff9100, #5100ff);
     border: 3px solid black;
     border-radius: 10px 75px 10px 75px;
     top: 50%;
@@ -30,13 +30,18 @@ width: 100%;
   }
   
   h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 20px;
+    color: #3300ff;
+
+    
   }
   
-  h3 {
-    font-size: 1.5rem;
+  .hh2 {
+    font-size: 1.7rem;
     margin-bottom: 30px;
+    font-family: 'Brush Script MT', cursive;
+
   }
   
   button {
@@ -48,10 +53,12 @@ width: 100%;
     border-radius: 50px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.7);
+
   }
   
   button:hover {
-    background-color: #ffc400;
+    background-color: #ffffff;
   }
   
   @media screen and (max-width: 768px) {

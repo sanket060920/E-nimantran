@@ -7,7 +7,7 @@ function Hero() {
     <div className="hero-container">
     <div className="hero-content">
       <h1>E-निमंत्रण </h1>
-      <h3>Lets invite digitally</h3>
+      <h2 className='hh2'>Lets invite digitally</h2>
       <button>Get Started</button>
     </div>
   </div>

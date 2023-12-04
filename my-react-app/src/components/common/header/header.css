@@ -6,7 +6,9 @@ body {
   }
   
   .navbar {
-    background-color: #333;
+    background-color: rgb(255, 115, 0);
+    background: linear-gradient(to bottom, #ff6600, #ffcc00);
+
     padding: 15px 0;
     /* position: fixed; */
     width: 100%;
