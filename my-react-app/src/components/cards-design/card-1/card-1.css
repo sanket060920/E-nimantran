@@ -1,46 +1,94 @@
-.card-1-main-container{
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    text-align: center;
-    background-color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Lobster&family=Tiro+Devanagari+Marathi&family=Yeon+Sung&display=swap');
+
+
+.card-1-sec{
+  font-family: "kalam";
+  display: flex;
+  flex-direction: column;
+  /* background-color: blue; */
+  height:auto;
+  width: 100vw;
+}
+.sec-1{
+  display: flex;
+  flex-direction: column;
+  /* background-color: blueviolet; */
+  height:100%;
+  font-size:2em;
 
 }
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-    background-color: aqua;
-  }
-  
-  .pop-up-image {
-    width: 100%;
-    max-width: 400px; /* Adjust as needed */
-    max-height: 300px; /* Adjust as needed */
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .pop-up-image:hover {
-    transform: scale(1.5);
-  }
-  
-  .content {
+.sec-1-head{
+  /* background-color: bisque; */
+  text-align: center;
+  height: 50%;
+  font-size:1.5rem;
+}
+.sec-1-header{
+  font-size: 2.5rem;
+}
+.couple{
+  display: flex;
+  /* background-color: aqua; */
+  justify-content: center;
+
+}
+.hsbnd{
+  /* background-color: brown; */
+  width: 50%;
+  text-align: center;
+  height: auto; /* Set your specific height */
+  overflow: hidden; /* Hide any overflowing content */
+  position: relative; 
+  font-size: 1rem;
+
+}
+.couple-img{
+  width: 100%; /* Take up 100% of the container's width */
+  height: 100%; /* Take up 100% of the container's height */
+  object-fit: cover; /* Maintain aspect ratio while covering the entire container */
+  object-position: center; 
+  max-width: 100%; /* Set the maximum width */
+  max-height: 100%; /* Set the maximum height */
+}
+.wfi{
+    /* background-color: yellowgreen; */
+    width: 50%;
     text-align: center;
-    max-width: 600px; /* Adjust as needed */
-    margin-top: 20px;
-  }
+    height:auto; /* Set your specific height */
+    overflow: hidden; /* Hide any overflowing content */
+    position: relative; 
+    font-size: 1rem;
+}
+.couple-img-sec{
+  margin: 2.5rem;
+  border: 5px solid white;
+  border-radius: 30px;
+  overflow: hidden;
+
+}
+
+.sec-2{
+  background-image: url("./image/main-img.jpg");
+  height:500px;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size:cover;
+
+}
+@media (max-width: 768px) {
+  .couple-img-sec{
+    margin: 0.5rem;
   
-  h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
   }
-  
-  p {
-    font-size: 16px;
-    line-height: 1.5;
+  .sec-1-head{
+    /* background-color: bisque; */
+    font-size: 0.5rem;
   }
-  
+  .sec-1-header{
+    font-size: 1rem;
+  }
+  .sec-1-para{
+    font-size: 0.5rem;
+
+  }
+}
