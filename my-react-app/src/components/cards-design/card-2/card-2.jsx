@@ -73,6 +73,10 @@ function Card_2() {
             <h2 className='section-2-head_2'>लग्नामुळे जुळतात, सासर आणि माहेर… <br /> तुमचा प्रेमळ आशीर्वाद, हाच आमचा आहेर.....</h2>  
         </div>
 
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/cJLQvjwirCE?si=nEvpv6i0u129HuiC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
         <div className='section-4'>
             <h1 className=''>कार्यक्रम</h1>
         </div>
