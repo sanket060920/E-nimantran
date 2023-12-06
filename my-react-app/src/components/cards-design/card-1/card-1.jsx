@@ -22,14 +22,14 @@ const ResponsiveImage = () => {
                       <img className='couple-img' src={Wife} alt="" />
                   </div>
                   <h1 className='sec-1-header'>चि. सौ. कां. भाविका</h1>
-                  <p className=''>कै.श्री. मिलिंद रमण खैरनार यांची द्वितीय कन्या <br /> रा. पिंपळनेर, ह.मु. कळवा, ठाणे</p>
+                  <p className='sec-1-para'>कै.श्री. मिलिंद रमण खैरनार यांची द्वितीय कन्या <br /> रा. पिंपळनेर, ह.मु. कळवा, ठाणे</p>
               </div>
               <div className='wfi'>
                   <div className='couple-img-sec'>
                       <img className='couple-img' src={Husband} alt="" />
                   </div>
                   <h1 className='sec-1-header'>चि. प्रशांत</h1>
-                  <p className=''>श्री. मोहन आनंदा पवार यांचे चतुर्थ चिरंजीव ,<br /> रा. नंदुरबार</p>
+                  <p className='sec-1-para'>श्री. मोहन आनंदा पवार यांचे चतुर्थ चिरंजीव ,<br /> रा. नंदुरबार</p>
               </div>
           </div>
           </div>

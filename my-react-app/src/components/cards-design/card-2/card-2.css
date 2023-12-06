@@ -1,3 +1,176 @@
+
 *{
-    color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+.section-1{
+    background-image: url(./image/main2.jpg);
+    background-color: rgba(0, 0, 0, 0.5); /* Black color with 50% opacity */
+    backdrop-filter: blur(10px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    font-family: 'kalam';
+
+}
+.section-1-head_1{
+    font-size: 3.5rem;
+    color: white;
+    text-shadow: 10px 5px 8px rgba(0, 0, 0, 0.8);
+
+}
+.section-1-head_2{
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 5px 2px 4px rgba(0, 0, 0, 0.8);
+
+}
+/**************************************************** */
+.section-2{
+    background-color: gray;
+    height: 50vh;
+    font-family:"kalam";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-2-head_1{
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 10px 5px 8px rgba(0, 0, 0, 0.8);
+
+}
+.section-2-head_2{
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 5px 2px 4px rgba(0, 0, 0, 0.8);
+
+}
+/**************************************************** */
+
+.section-3{
+    background-color: rgb(165, 115, 115);
+    height: 50vh;
+    font-family:"kalam";
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.wife{
+    height: 100%;
+    width: 50%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.husband{
+    height: 100%;
+    width: 50%;
+    background-color:antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/**************************************************** */
+.section-4{
+    background-color: rgb(71, 65, 65);
+    height: 15vh;
+    font-family:"kalam";
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/**************************************************** */
+.section-5{
+    background-color: rgb(170, 19, 19);
+    height: 50vh;
+    font-family:"kalam";
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/**************************************************** */
+.Quote{
+    background-image: url(./image/quote-image.jpg);
+    background-color: rgba(0, 0, 0, 0.5); /* Black color with 50% opacity */
+    backdrop-filter: blur(10px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    font-family: 'kalam';
+}
+/**************************************************** */
+
+.family{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    padding: 20px
+
+}
+.fathers{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.mothers{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.brothers{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
 }
