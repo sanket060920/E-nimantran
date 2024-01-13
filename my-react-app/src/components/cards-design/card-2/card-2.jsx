@@ -2,7 +2,14 @@
 import React from 'react';
 import '../card-2/card-2.css';
 import '../commen-css/cards.css'
-// import Husband from "./image/Husband.jpg"
+import Husband from "./image/Husband.jpg"
+import Wife from "./image/Wife.jpg"
+import father1 from "./image/father1.jpg"
+import father2 from "./image/father2.jpg"
+import mother1 from "./image/mother1.jpg"
+import mother2 from "./image/mother2.jpg"
+import brother1 from "./image/brother1.jpg"
+import brother2 from "./image/brother2.jpg"
 function Card_2() {
   return (
     <>
@@ -16,54 +23,71 @@ function Card_2() {
             <h1 className='section-2-head_1'>वर आणि वधू</h1>
             <h2 className='section-2-head_2'>भाविका व प्रशांत च्या लग्नाकडे, डोळे लागले जगाचे… <br /> आहेरात आणा फक्त, अनमोल गिफ्ट आशीर्वादाचे…</h2>  
         </div>
+
         <div className='section-3'>
             <div className='wife'>
-                <img className='wife-image' src="" alt="" />
+                <div className='wife-image'> 
+                    <img src={Wife} alt="" />
+                </div>
                 <h1 className='wife-name'>चि. सौ. कां. भाविका</h1>
                 <p className='wife-location'>कै.श्री. मिलिंद रमण खैरनार यांची द्वितीय कन्या <br /> रा. पिंपळनेर, ह.मु. कळवा, ठाणे</p>
             </div>
             <div className='husband'>
-                <img className='husband-image' src='' alt="" />
+                <div className='husband-image'>
+                    <img  src={Husband} alt="" />
+                </div>
                 <h1 className='husband-name'>चि. प्रशांत</h1>
-                <p className='husband-location'> श्री. मोहन आनंदा पवार यांचे चतुर्थ चिरंजीव , <br /> रा. नंदुरबार</p>
+                <p className='husband-location'> श्री. मोहन आनंदा पवार यांचे चतुर्थ चिरंजीव,<br />रा. नंदुरबार</p>
             </div>
         </div>
 
         <div className='family'>
             <div className='fathers'>
-                <div className='husband-father'>
-                    <img className='' src="" alt="" />
+                <div className='husband-father align-item-ver-cntr'>
+                    <div className=' family-member-image'>
+                        <img className='' src={father1} alt="" />
+                    </div>
                     <h1 className=''>श्री.मिलिंद खैरनार</h1>
-                    <h2 className=''>-वराचे बाबा-</h2>
+                    <h2 className='color-gray'>-वराचे बाबा-</h2>
                 </div>
-                <div className='wife-father'>
-                    <img className='' src="" alt="" />
+                <div className='wife-father align-item-ver-cntr'>
+                    <div className=' family-member-image '>
+                        <img className='' src={father2} alt="" />
+                    </div>
                     <h1 className=''>श्री.मोहन आनंदा पवार</h1>
-                    <h2 className=''>-वधुचे बाबा-</h2>
+                    <h2 className='color-gray'>-वधुचे बाबा-</h2>
                 </div>
             </div>
             <div className='mothers'>
-                <div className='husband-mother'>
-                    <img className='' src="" alt="" />
+                <div className='husband-mother align-item-ver-cntr'>
+                    <div className=' family-member-image '>
+                        <img className='' src={mother1} alt="" />
+                    </div>
                     <h1 className=''>सौ.आशा मिलिंद खैरनार</h1>
-                    <h2 className=''>-वराची आई-</h2>
+                    <h2 className='color-gray'>-वराची आई-</h2>
                 </div>
-                <div className=''>
-                    <img className='wife-mother' src="" alt="" />
+                <div className='wife-mother align-item-ver-cntr'>
+                    <div className=' family-member-image '>
+                        <img className='' src={mother2} alt="" />
+                    </div>
                     <h1 className=''>सौ.लताबाई पवार</h1>
-                    <h2 className=''>-वधूची आई-</h2>
+                    <h2 className='color-gray'>-वधूची आई-</h2>
                 </div>
             </div>
             <div className='brothers'>
-                <div className=''>
-                    <img className='husband-brother' src="" alt="" />
+                <div className='husband-brother align-item-ver-cntr'>
+                    <div className=' family-member-image '>
+                        <img className='' src={brother1} alt="" />
+                    </div>
                     <h1 className=''>चि. निलेश सुभाष तरटे</h1>
-                    <h2 className=''>-वराचा भाऊ -</h2>
+                    <h2 className='color-gray'>-वराचा भाऊ -</h2>
                 </div>
-                <div className='wife-brother'>
-                    <img className='' src="" alt="" />
+                <div className='wife-brother align-item-ver-cntr'>
+                    <div className=' family-member-image '>
+                        <img className='' src={brother2} alt="" />
+                    </div>
                     <h1 className=''>चि. निलेश सुभाष तरटे</h1>
-                    <h2 className=''>-वधुचे भाऊ -</h2>
+                    <h2 className='color-gray'>-वधुचे भाऊ -</h2>
                 </div>
             </div>
         </div>
@@ -81,17 +105,17 @@ function Card_2() {
             <h1 className=''>कार्यक्रम</h1>
         </div>
         <div className='section-5'>
-            <div className=''>
+            <div className='halad'>
                 <img className='' src="" alt="" />
                 <h1 className=''>हळद</h1>
                 <h2 className=''>रविवार, दि. ४ डिसेम्बर २०२३  रोजी <br /> विवाहस्थळी</h2>
             </div>
-            <div className=''>
+            <div className='location'>
                 <img className='' src="" alt="" />
                 <h1 className=''>विवाहस्थळ</h1>
                 <h2 className=''>कन्यादान मंगल कार्यालय ०८,<br /> नवल रोड, अहिंसा चौक , नंदुरबार.</h2>
             </div>
-            <div className=''>
+            <div className='time'>
                 <img className='' src="" alt="" />
                 <h1 className=''>लग्न</h1>
                 <h2 className=''>सोमवार, ५ डिसेम्बर २०२३ रोजी <br /> १२. २२ मिनीटांनी <br /> विवाहस्थळी</h2>

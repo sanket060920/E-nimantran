@@ -25,7 +25,6 @@
     font-size: 3.5rem;
     color: white;
     text-shadow: 10px 5px 8px rgba(0, 0, 0, 0.8);
-
 }
 .section-1-head_2{
     font-size: 2.5rem;
@@ -35,7 +34,7 @@
 }
 /**************************************************** */
 .section-2{
-    background-color: gray;
+    background-color: rgb(196, 190, 190);
     height: 50vh;
     font-family:"kalam";
     display: flex;
@@ -58,33 +57,78 @@
 /**************************************************** */
 
 .section-3{
-    background-color: rgb(165, 115, 115);
+    /* background-color: rgb(165, 115, 115); */
     height: 50vh;
     font-family:"kalam";
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 .wife{
     height: 100%;
     width: 50%;
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    min-width: 384px;
+}
+.wife-image{
+    height: 450px;
+    width: 450px;
+    overflow: hidden;
+    border: 5px solid white;
+    border-radius: 40px;
+    object-fit: cover;
+}
+.wife-image img{
+    height: 100%;
+    width: 100%;
+}
+.wife-name{
+    font-size: 2rem;
+}
+.wife-location{
+    color: grey;
+    font-size: 1rem;
+    text-align: center;
 }
 .husband{
     height: 100%;
     width: 50%;
-    background-color:antiquewhite;
+    /* background-color:antiquewhite; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-width: 384px;
+    overflow: hidden;
 }
+.husband-image{
+    height: 450px;
+    width: 450px;
+    overflow: hidden;
+    border: 5px solid white;
+    border-radius: 40px;
+    object-fit: cover;
 
+}
+.husband-image img{
+    height: 100%;
+    width: 100%;
+}
+.husband-name{
+    font-size: 2rem;
+}
+.husband-location{
+    font-size: 1rem;
+    text-align: center;
+    color: grey;
+
+
+}
 /**************************************************** */
 .section-4{
     background-color: rgb(71, 65, 65);
@@ -96,12 +140,38 @@
 }
 /**************************************************** */
 .section-5{
-    background-color: rgb(170, 19, 19);
-    height: 50vh;
+    /* background-color: rgb(170, 19, 19); */
+    height:auto;
     font-family:"kalam";
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    font-size: 0.5rem;
+    padding: 20px;
+    gap: 10px;
+}
+
+.halad{
+    font-size: 0.9rem;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+.location{
+    font-size: 0.9rem;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+.time{
+    font-size: 0.9rem;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+
 }
 
 /**************************************************** */
@@ -123,44 +193,56 @@
 }
 /**************************************************** */
 .video-container {
-    height: 60vh;
+    height: 75vh;
     padding: 5%;
     text-align: center;
   }
 
   .video-container iframe {
-    /* width: 100%; */
     height: 100%;
     width: 70%;
   }
 /**************************************************** */
 
 .family{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 20px;
     align-items: center;
-    padding: 20px
-
+    font-family: "kalam";
+    padding: 20px;
+    font-size: 1rem;
+}
+.family-member-image img{
+    height: 100%;
+    width: 100%;
 }
 .fathers{
     display: flex;
-    border: 2px solid black;
     border-radius: 20px;
+    width: 100vw;
+    justify-content: space-around;
+    
 }
 
 .mothers{
     display: flex;
-    border: 2px solid black;
     border-radius: 20px;
+    width: 100vw;
+    justify-content: space-around;
+
+
 }
 
 .brothers{
     display: flex;
-    border: 2px solid black;
-    border-radius: 20px;
+    /* border: 2px solid black; */
+    width: 100vw;
+    justify-content: space-around;
+
+
 }
 
 
@@ -184,5 +266,260 @@
 
 
 @media (max-width: 768px) {
+    .section-1{
+        background-size:cover;
+        height: 50vh;
+        gap:20px;
+        background-position:top;
+    }
+    .section-1-head_1{
+        font-size: 2.5rem;
+    }
+    .section-1-head_2{
+        font-size: 1.5rem;
+    }
+
+    .section-3{
+        height: auto;
+        width: 100vw;
+        overflow: hidden;
+    }
+/**************************************************** */
+.section-2{
+    padding: 30px;
+    height:auto;
+}
+.section-2-head_1{
+    font-size: 1.5rem;
+}
+.section-2-head_2{
+    font-size: 0.7rem;
 
 }
+/************************************************* */
+.section-3{
+    height:auto;
+}
+.wife{
+    height: 100%;
+    width: 50%;
+    min-width: none;
+}
+.wife-image{
+    height: 250px;
+    width: 250px;
+}
+.wife-name{
+    font-size: 1rem;
+}
+.wife-location{
+    font-size: 0.8rem;
+}
+.husband{
+    height: 100%;
+    width: 50%;
+}
+.husband-image{
+    height: 250px;
+    width: 250px;
+}
+.husband-name{
+    font-size: 1rem;
+}
+.husband-location{
+    font-size: 0.7rem;
+}
+
+/************************************************* */
+
+.section-5{
+    font-size: 0.3rem;
+    padding: 10px;
+    height: auto;
+}
+
+.halad{
+    font-size: 0.7rem;
+   }
+   .location{
+       font-size: 0.7rem;
+   
+   }
+   .time{
+       font-size: 0.7rem;
+   
+   }
+
+/************************************************* */
+
+.family{
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+    font-size: 0.8rem;
+}
+
+
+.fathers{
+    flex-direction: column;
+}
+
+.mothers{
+    flex-direction: column;
+}
+
+.brothers{
+    flex-direction: column;
+}
+
+/* ===================================================================== */
+
+.Quote{
+    height: 50vh;
+}
+
+}
+/**************************************************** */
+.video-container {
+    height: 35vh;
+  }
+  /* .video-container iframe {
+    width: 50%;
+  } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+    .section-1{
+        background-size:contain;
+        gap:20px;
+        height: 40vh;
+
+    }
+    .section-1-head_1{
+        font-size: 1.5rem;
+    }
+    .section-1-head_2{
+        font-size: 0.7rem;
+    }
+
+    .section-3{
+        height: auto;
+    }
+    /**************************************************** */
+    .section-2{
+        padding: 20px;
+    }
+    .section-2-head_1{
+        font-size: 1rem;
+    }
+    .section-2-head_2{
+        font-size: 0.5rem;
+
+    }
+
+    /************************************************* */
+
+.section-5{
+    font-size: 0.3rem;
+    padding: 5px;
+}
+.halad{
+    font-size: 0.5rem;
+   }
+   .location{
+       font-size: 0.5rem;
+   
+   }
+   .time{
+       font-size: 0.5rem;
+   
+   }
+/* ===================================================================== */
+
+    .Quote{
+        height: 30vh;
+    }
+
+/**************************************************** */
+.video-container {
+    height: 25vh;
+  }
+  /* .video-container iframe {
+    width: 50%;
+  } */
+
+  /************************************************* */
+.section-3{
+    height:auto;
+}
+.wife{
+    height: 100%;
+    width: 50%;
+    min-width: none;
+}
+.wife-image{
+    height: 200px;
+    width: 200px;
+}
+.wife-name{
+    font-size: 0.8rem;
+}
+.wife-location{
+    font-size: 0.5rem;
+}
+.husband{
+    height: 100%;
+    width: 50%;
+}
+.husband-image{
+    height: 200px;
+    width: 200px;
+}
+.husband-name{
+    font-size: 0.8rem;
+}
+.husband-location{
+    font-size: 0.5rem;
+}
+
+/* ======================================================= */
+
+.family{
+    gap: 5px;
+    padding: 10px;
+    font-size: 0.6rem;
+}
+
+
+}
+
+
+

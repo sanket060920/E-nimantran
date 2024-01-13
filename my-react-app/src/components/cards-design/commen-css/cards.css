@@ -3,3 +3,24 @@
 .card-font{
     font-family: "kalam";
 }
+
+.itm-vertical{
+    display: flex;
+    flex-direction: column;
+}
+.family-member-image{
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+.align-item-ver-cntr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.color-gray{
+    color: gray;
+}
