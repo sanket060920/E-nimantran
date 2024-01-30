@@ -1,7 +1,6 @@
 // FooterComponent.jsx
 import React from 'react';
 import '../card-2/card-2.css';
-import '../commen-css/cards.css'
 import Husband from "./image/Husband.jpg"
 import Wife from "./image/Wife.jpg"
 import father1 from "./image/father1.jpg"

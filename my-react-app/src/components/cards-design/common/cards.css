@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Lobster&family=Yeon+Sung&display=swap');
+
+
+.cmp1-main{
+    background-image: url(../card-1/image/TB990557.jpg);
+    background-color: rgba(0, 0, 0, 0.5); /* Black color with 50% opacity */
+    backdrop-filter: blur(20px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    font-family: 'kalam';
+    font-size: 50px;
+    color: white;
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.5);
+    background-color: green;
+}
+
+/* ------------------------------------------------------------------------ */
+
+.cmp2-main{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'kalam';
+    color: white;
+    /* text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.5); */
+}
+
+.cmp2-inner-div{
+    margin: 50px 50px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 25px;
+    height:90%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+.clr-gray{
+    color: gray;
+}
+.left-husband{
+    width: 30%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: red;
+}
+.cmp2-middle-couple{
+    height: auto;
+    width: 30%;
+    background-image: url(../card-1/image/TB990540.jpg);
+    backdrop-filter: blur(20px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.right-wife{
+    align-items: center;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: red;
+
+}
+/* ------------------------------------------------------------------------------------ */
+
+.cmp3-main{
+    background-image: url(../card-1/image/TB990536.jpg);
+    background-color: rgba(0, 0, 0, 0.5); /* Black color with 50% opacity */
+    backdrop-filter: blur(20px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'kalam';
+    font-size: 10px;
+    color: white;
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+/* --------------------------------------------------------------------------------------------- */
+
+.cmp4-main{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'kalam';
+    background-color: aquamarine;
+}
+.map{
+    height: 70%;
+    width: 100%;
+}
+.ifrm{
+    height: 100%;
+    width: 100%;
+}
+
+/* ---------------------------------------------------------------------------------------------- */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 16px;
+    padding: 16px;
+    box-shadow: 0 4px 30px rgba(12, 11, 11, 0.651);
+    margin: 1rem;
+  }
+  
+  .gallery-item {
+    box-shadow: 0 4px 30px rgba(12, 11, 11, 0.651);
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .gallery-item:hover {
+    transform: scale(1.05);
+  }
+  
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .gallery-item:hover {
+    transform: scale(1.1);
+  }
+  
+  
+
+
+/* ---------------------------------------------------------------------------------------------- */
+
+.footer-main{
+    height: 30vh;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+@media (min-width: 600px){
+    .cmp1-main {
+        font-size: 25px;
+
+    }
+    .cmp2-main{
+
+    }
+    .left-husband{
+        font-size: 0.8em
+    }
+    .cmp2-middle-couple{
+        height: 75%;
+        width: 30%;
+        margin: 10px;
+
+    }
+    .right-wife{
+        font-size: 0.8em
+    }
+    .cmp3-main{
+        /* height: 35vh; */
+    }
+    
+  }
+/* --------------------------------------------------------------------------------- */
+  @media (min-width: 480px) and (max-width: 600px) {
+    .cmp1-main {
+        font-size: 15px;
+        height: 90vh;
+
+    }
+    .cmp2-main{
+        /* height: auto;
+        flex-direction: column; */
+    }
+    .cmp2-inner-div{
+        /* height: auto;
+        flex-direction: column; */
+    }
+    .left-husband{
+        font-size: 0.6em
+    }
+    .cmp2-middle-couple{
+        height: 50%;
+        width: 30%;
+        margin: 10px;
+
+    }
+    .right-wife{
+        font-size: 0.6em
+    }
+    .cmp3-main{
+        font-size: 7px;
+        height: 30vh;
+
+    }
+    .cmp4-main{
+        height: 40vh;
+        font-size: 20px;
+    }
+    .footer-main{
+        height: 20vh;
+        font-size: 5px;
+        
+    }
+    
+  }
+/* ------------------------------------------------------------------------------------------- */
+@media (max-width: 480px) {
+    .cmp1-main {
+        font-size: 10px;
+        height: 80vh;
+
+    }
+    .cmp2-main{
+        height: 60vh;
+    }
+    .cmp2-inner-div{
+        font-size: 00.3em;
+    }
+    .left-husband{
+        /* font-size:0.3em; */
+    }
+    .cmp2-middle-couple{
+        height: 40%;
+        width: 30%;
+        margin: 10px;
+
+    }
+    .right-wife{
+        /* font-size: 0.3em; */
+    }
+    .cmp3-main{
+        font-size: 5px;
+        height: 30vh;
+    }
+    .cmp4-main{
+        height: 30vh;
+        font-size: 15px;
+    }
+    .footer-main{
+        height: 10vh;
+        font-size: 0.7em;
+    }
+    .footer-main{
+        font-size: 5px;
+    }
+    
+
+  }
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
