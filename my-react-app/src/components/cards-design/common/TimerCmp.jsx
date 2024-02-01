@@ -2,19 +2,11 @@ import '../common/cards.css';
 import React, { useEffect, useState } from "react";
 
 
-const Cmp6 = () => {
+const TimerCmp = () => {
  
      const weddingDate = new Date("2024-02-10T16:31:00");
       const [timeRemaining, setTimeRemaining] = useState(calculateTimeRemaining());
-      // const [play] = useSound(
-      //   "../SAComponents/music/Shehnai.mp3",
-      //   {
-      //     volume: 1.0,
-      //     autoplay: true,
-      //   },
-      //   []
-      // );
-    
+
       function calculateTimeRemaining() {
         const now = new Date();
         const difference = weddingDate - now;
@@ -40,45 +32,34 @@ const Cmp6 = () => {
     
         return () => clearInterval(interval);
       }, []);
-    
-      // const backgroundStyle = {
-      //   backgroundImage: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(),
-      //   // backgroundImage: url(${backgroundImage}),
-      //   backgroundSize: "cover", // You can adjust this based on your preferences
-      //   backgroundPosition: "top",
-      // };
-    
+
       return (
         <div className="counter" >
-          {/* <button onClick={play}>Audio</button> */}
-    
-          {/* <AudioPlayer /> */}
-          {/* <FaRegClock className="icon" /> */}
-          <h3>आतुरता लग्नाची..।।</h3>
+          <h3 className='counter-head'>आतुरता लग्नाची..।।</h3>
           <div className="timer">
             <div>
               <button className="button-40" role="button">
                 <span className="text">{timeRemaining.days}</span>
               </button>
-              <p>Days</p>
+              <p>दिवस</p>
             </div>
             <div>
               <button className="button-40" role="button">
                 <span className="text">{timeRemaining.hours}</span>
               </button>
-              <p>Hours</p>
+              <p>तास</p>
             </div>
             <div>
               <button className="button-40" role="button">
                 <span className="text">{timeRemaining.minutes}</span>
               </button>
-              <p>Minutes</p>
+              <p>मिनटं</p>
             </div>
             <div>
               <button className="button-40" role="button">
                 <span className="text">{timeRemaining.seconds}</span>
               </button>
-              <p>Seconds</p>
+              <p>सेकंद</p>
             </div>
           </div>
         </div>
@@ -86,5 +67,5 @@ const Cmp6 = () => {
 
 
 };
-export default Cmp6;
+export default TimerCmp;
 
