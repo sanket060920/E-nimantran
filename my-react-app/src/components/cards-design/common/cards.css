@@ -205,9 +205,10 @@
     font-weight: 800;
     gap: 10px;
     background: linear-gradient(to right, #ffcc00, #ff6699);
+    box-shadow: 0 4px 30px rgba(12, 11, 11, 0.651);
     border: 2px solid black;
     border-radius: 30px;
-    margin: 0 50px 0 50px;
+    margin: 0 30px 0 30px;
 }
 .counter-head{
     text-align: center;
@@ -285,6 +286,30 @@
 
 
 }
+/* ---------------------------------------------------------------------------------------------- */
+
+.SheduleCmp-main{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin: 30px;
+    border: 2px solid black;
+    border-radius: 30px;
+    background: linear-gradient(to right, #ffcc00, #ff6699);
+    box-shadow: 0 4px 30px rgba(12, 11, 11, 0.651);
+    text-align: center;
+    padding: 15px;
+}
+/* ---------------------------------------------------------------------------------------------- */
+.Music-main{
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(to right, #ffcc00, #ff6699);
+    padding: 20px;
+}
+.Music-audio{
+
+}
 
 
 
@@ -333,8 +358,7 @@
     }
     .cmp2-inner-div{
         margin: 30px 30px;
-        /* height: auto;
-        flex-direction: column; */
+        height: 60%;
     }
     .left-husband{
         font-size: 0.6em
@@ -378,6 +402,10 @@
        .SaptapadiCmp-main{
         font-size: 15px;
     }
+
+    .SheduleCmp-main{
+        font-size: 15px;
+    }
        
   }
 /* ------------------------------------------------------------------------------------------- */
@@ -393,12 +421,13 @@
     .cmp2-inner-div{
         margin: 20px 20px;
         font-size: 10px;
+        height: 60%;
     }
     .left-husband{
         /* font-size:0.3em; */
     }
     .cmp2-middle-couple{
-        height: 40%;
+        height: 60%;
         width: 30%;
         margin: 10px;
 
@@ -424,8 +453,7 @@
     .counter{
         gap: 10px;
         height: auto;
-        margin: 0 15px 10px 15px;
-
+        margin: 0 15px 10px 15px
     }
     .timer{
         flex-direction: column;
@@ -443,6 +471,18 @@
        }
        .SaptapadiCmp-main{
         font-size: 10px;
+    }
+    .SheduleCmp-main{
+        margin: 0 15px 10px 15px;
+        flex-direction: column;
+        font-size: 15px;
+    }
+    .Music-main{
+        padding: 10px;
+    }
+    .Music-audio{
+       height: 35px;
+       width: 250px;
     }
 
   }

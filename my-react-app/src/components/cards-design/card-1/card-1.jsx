@@ -9,18 +9,20 @@ import Gallerycmp from '../common/GalleryCmp.jsx';
 import Timercmp from '../common/TimerCmp.jsx';
 import SuvarnaKshanCmp from '../common/SuvarnaKshanCmp.jsx';
 import SaptapadiCmp from '../common/SaptapadiCmp.jsx';
-// import Muscicmp from '../common/MusicCmp.jsx';
+import SheduleCmp from '../common/SheduleCmp.jsx';
+import Muscicmp from '../common/MusicCmp.jsx';
 
 const Card1 = () => {
   return (
     <>
     <FirstCmp/>
-    {/* <Muscicmp/> */}
+    <Muscicmp/>
     <SecondCmp/>
     <SuvarnaKshanCmp/>
     <ThirdCmp/>
     <SaptapadiCmp/>
     <Gallerycmp/>
+    <SheduleCmp/>
     <Timercmp/>
     <FourthCmp/>
     <Footer/>
