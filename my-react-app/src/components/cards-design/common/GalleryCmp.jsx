@@ -6,7 +6,7 @@ import SAImg4 from "../card-1/image/TB990540.jpg";
 import SAImg5 from "../card-1/image/TB990545.jpg";
 import SAImg6 from "../card-1/image/TB990594.jpg";
 import SAImg7 from "../card-1/image/TB990554.jpg";
-const Cmp5 = () => {
+const GalleryCmp = () => {
   return (
     // <div className='cmp5-main'>
 
@@ -55,5 +55,5 @@ const Cmp5 = () => {
     // </div>
   )
 };
-export default Cmp5;
+export default GalleryCmp;
 

@@ -1,5 +1,5 @@
 import '../common/cards.css'; 
-const Footer = () => {
+const FooterCmp = () => {
   return (
       
       <div className='footer-main'>
@@ -8,5 +8,5 @@ const Footer = () => {
 
 )
 };
-export default Footer;
+export default FooterCmp;
 
