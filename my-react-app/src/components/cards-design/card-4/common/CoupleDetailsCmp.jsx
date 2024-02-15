@@ -6,8 +6,8 @@ const CoupleDetailsCmp = () => {
             <div className='left-husband'>
             <h2>चि. सौ. कां. माधुरी </h2>
 
-<h4 className='clr-gray '>श्री.बाजीराव पोपट धुमाळ</h4>
-<h4 className='clr-gray'>रा.खडकवाडी, ता-आंबेगाव, जी-पुणे</h4>
+<h4 className='clr-gray '>श्री.बाजीराव पोपट धुमाळ यांची सुकन्या </h4>
+<h4 className='clr-gray'>रा.खडकवाडी, ता-आंबेगाव, जि- पुणे. </h4>
 
 
 </div>
@@ -17,8 +17,8 @@ const CoupleDetailsCmp = () => {
 <div className='right-wife'>
 <h2>चि. शरद </h2>
 
-<h4 className='clr-gray'>श्री.देवराम धोंडू गायकवाड चिरंजीव,</h4>
-<h4 className='clr-gray'>रा.खोदड, ता-जुन्नर, जी-पुणे</h4>
+<h4 className='clr-gray'>श्री.देवराम धोंडू गायकवाड यांचे चिरंजीव,</h4>
+<h4 className='clr-gray'>रा.खोदड, ता-जुन्नर, जि- पुणे. </h4>
 </div>
         </div>
     </div>
