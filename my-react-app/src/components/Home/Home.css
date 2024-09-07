@@ -12,4 +12,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(../Home/Images/TP.jpg);
+    background-color: rgba(0, 0, 0, 0.5); /* Black color with 50% opacity */
+    backdrop-filter: blur(100px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }

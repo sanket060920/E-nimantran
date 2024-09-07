@@ -2,7 +2,7 @@
 #Main_Div {
     min-height: 100vh;
     width: 100vw;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -16,7 +16,7 @@
     align-items: center;
     border: 2px solid black;
     font-family: "Poppins", system-ui;
-    background-color: aqua;
+    /* background-color: aqua; */
     height: 5em;
     padding: 1em;
   }
@@ -28,6 +28,10 @@
   
   #Main_heading {
     color: blueviolet;
+    margin: 0.2em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
   
   #Second_Div {
@@ -37,10 +41,12 @@
     height: auto; /* Use auto for responsive height */
     justify-content: center;
     align-items: center;
-    padding: 1em;
   }
   
   #Plan_Div {
+    background: rgba(59, 59, 59, 0.05); /* Semi-transparent white background */
+    backdrop-filter: blur(8px); /* Apply blur effect */
+    -webkit-backdrop-filter: blur(8px); /* For Safari */
     width: 80vw;
     display: flex;
     flex-direction: column;
@@ -51,6 +57,9 @@
     margin: 1em;
     padding: 0.5em;
     font-size: 1em;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+    border: 1px solid rgba(0, 191, 255, 0.3); /* Optional border for glass effect */
+
   }
   
   #Plan_heading {
@@ -64,8 +73,9 @@
   }
   
   .Plan_point {
-    margin: 0.5em;
+    margin: 0.8em;
     font-size: 0.6em;
+    color:antiquewhite;
   }
   
   /* Media Queries for Responsive Design */
@@ -77,8 +87,10 @@
     }
   
     #Plan_Div {
-      width: 40vw; /* Make plans smaller on tablets */
-      margin: 1em;
+      width:15em; /* Make plans smaller on tablets */
+      font-size: 1.5em;
+      
+      /* margin: 1em; */
     }
   }
   
@@ -117,9 +129,9 @@
     }
   
     #Plan_Div {
-      width: 90vw; /* Full width on small screens */
-      /* margin: 0 0; */
-      margin: 0 2em 0 2em;
+      width: 70%; /* Full width on small screens */
+      margin: 1em;
+      margin: 1em 2em 1em 2em;
       padding: 0px;
     }
   }
