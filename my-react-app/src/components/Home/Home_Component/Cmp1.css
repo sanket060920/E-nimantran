@@ -44,10 +44,11 @@
   }
   
   #Plan_Div {
-    background: rgba(59, 59, 59, 0.05); /* Semi-transparent white background */
+    background: rgba(199, 57, 95,  0.404); /* Semi-transparent white background */
     backdrop-filter: blur(8px); /* Apply blur effect */
     -webkit-backdrop-filter: blur(8px); /* For Safari */
     width: 80vw;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,25 +59,24 @@
     padding: 0.5em;
     font-size: 1em;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
-    border: 1px solid rgba(0, 191, 255, 0.3); /* Optional border for glass effect */
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Optional border for glass effect */
 
   }
   
   #Plan_heading {
-    color: #C7395F;
+    color:  #DED4E8;
     font-size: 0.6em;
   }
   
   #Plan_description {
     margin: 0.4em;
-    text-align: center;
-  }
+   }
   
   .Plan_point {
     margin: 0.8em;
     font-size: 0.6em;
     color:antiquewhite;
-  }
+    }
   
   /* Media Queries for Responsive Design */
   
@@ -85,7 +85,6 @@
     #Main_Div {
       font-size: 3vw; /* Adjust font-size for tablets */
     }
-  
     #Plan_Div {
       width:15em; /* Make plans smaller on tablets */
       font-size: 1.5em;
@@ -103,12 +102,10 @@
     #Second_Div {
       flex-direction: row; /* Side by side layout for larger screens */
     }
-  
     #Plan_Div {
       width: 20vw; /* Keep plan width smaller on larger screens */
     }
   }
-  
   /* For Mobile Devices */
   @media (max-width: 599px) {
     #Main_Div {
@@ -123,11 +120,9 @@
         color: #E8BA40;
         font-size: 2em;
       }
-  
     #Second_Div {
       flex-direction: column;
     }
-  
     #Plan_Div {
       width: 70%; /* Full width on small screens */
       margin: 1em;
