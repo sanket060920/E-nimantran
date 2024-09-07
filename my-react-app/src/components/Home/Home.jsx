@@ -1,27 +1,13 @@
-import '../card-1/card-1.css'; 
-import '../common/cards.css'; 
+import '../Home/Home.css'
+import Cmp1 from '../Home/Home_Component/Cmp1';
 
 
-const Card1 = () => {
+
+const Home = () => {
   return (
-    <>
-    hello from home
-    {/* <FirstCmp/>
-    <Muscicmp/>
-    <SecondCmp/>
-    <SuvarnaKshanCmp/>
-    <ThirdCmp/>
-    <SaptapadiCmp/>
-    <Gallerycmp/>
-    <SheduleCmp/>
-    <Timercmp/>
-    <FourthCmp/>
-    <Footer/> */}
-
-    </>
-
+    <div id='Home_Div'>
+        <Cmp1/>
+    </div>
   )
 };
-
-
-export default Card1;
+export default Home;

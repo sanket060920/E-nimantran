@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Lobster&family=Yeon+Sung&display=swap');
 
-*{
+/* *{
     font-family:'kalam', Geneva, Tahoma, sans-serif;
     
-}
+} */
 .cmp1-main{
     background: linear-gradient(to right, #ffcc00, #ff6699);
     background-image: url(../card-1/image/TB990557.jpg);

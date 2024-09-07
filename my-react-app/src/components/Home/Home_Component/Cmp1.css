@@ -1,0 +1,126 @@
+/* Base Styles */
+#Main_Div {
+    min-height: 100vh;
+    width: 100vw;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    font-size: 4vw; /* Use viewport width for responsive font size */
+    box-sizing: border-box;
+  }
+  
+  #First_Div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    font-family: "Poppins", system-ui;
+    background-color: aqua;
+    height: 5em;
+    padding: 1em;
+  }
+  
+  #First_Div h1 {
+    color: #E8BA40;
+    font-size: 4em;
+  }
+  
+  #Main_heading {
+    color: blueviolet;
+  }
+  
+  #Second_Div {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column; /* Stack on smaller screens */
+    height: auto; /* Use auto for responsive height */
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+  }
+  
+  #Plan_Div {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 1em;
+    padding: 0.5em;
+    font-size: 1em;
+  }
+  
+  #Plan_heading {
+    color: #C7395F;
+    font-size: 0.6em;
+  }
+  
+  #Plan_description {
+    margin: 0.4em;
+    text-align: center;
+  }
+  
+  .Plan_point {
+    margin: 0.5em;
+    font-size: 0.6em;
+  }
+  
+  /* Media Queries for Responsive Design */
+  
+  /* For Tablets */
+  @media (min-width: 600px) and (max-width: 1024px) {
+    #Main_Div {
+      font-size: 3vw; /* Adjust font-size for tablets */
+    }
+  
+    #Plan_Div {
+      width: 40vw; /* Make plans smaller on tablets */
+      margin: 1em;
+    }
+  }
+  
+  /* For Desktops */
+  @media (min-width: 1025px) {
+    #Main_Div {
+      font-size: 2vw; /* Adjust font-size for desktops */
+    }
+  
+    #Second_Div {
+      flex-direction: row; /* Side by side layout for larger screens */
+    }
+  
+    #Plan_Div {
+      width: 20vw; /* Keep plan width smaller on larger screens */
+    }
+  }
+  
+  /* For Mobile Devices */
+  @media (max-width: 599px) {
+    #Main_Div {
+      font-size: 6vw; /* Larger font for smaller screens */
+    }
+  
+    #First_Div {
+      height: auto; /* Allow the height to adjust for smaller screens */
+      /* padding: 2em 1em; Padding for better readability */
+    }
+    #First_Div h1 {
+        color: #E8BA40;
+        font-size: 2em;
+      }
+  
+    #Second_Div {
+      flex-direction: column;
+    }
+  
+    #Plan_Div {
+      width: 90vw; /* Full width on small screens */
+      /* margin: 0 0; */
+      margin: 0 2em 0 2em;
+      padding: 0px;
+    }
+  }
+  
