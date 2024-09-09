@@ -5,16 +5,19 @@
 *{
     /* font-family: "Poppins", system-ui;
     font-weight: 1000;
-    font-size: 90%; */
-    /* font-style: italic; */
+    font-style: italic; */
+    font-size:100px; 
 }
 #Home_Div{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../Home/Images/TP.jpg);
+    /* justify-content: space-evenly;     */
+    /* align-items: center; */
+    width: 100vw;
+    flex-direction: column;
+    /* background-image: url(../Home/Images/TP.jpg); */
     background-color: rgba(0, 0, 0, 0.5); /* Black color with 50% opacity */
-    backdrop-filter: blur(100px);
+    /* backdrop-filter: blur(100px); */
+    height: auto;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
