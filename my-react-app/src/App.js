@@ -9,6 +9,8 @@ import './App.css';
 // import Card2 from './components/cards-design/card-2/card-2';
 // import Card4 from './components/cards-design/card-4/card-4';
 import Home from './components/Home/Home';
+import About from './components/Home/Portfolio/Components/About';
+import Resume from './components/Home/Portfolio/Components/Resume';
 
 
 function App() {
@@ -17,7 +19,9 @@ function App() {
           
       <Router>
         <Routes>
-        <Route path="/" element={<Home/>} />
+        <Route path="/PortFolio" element={<Home/>} />
+        <Route path="/Portfolio/About" element={<About/>} />
+        <Route path="/Portfolio/Resume" element={<Resume/>} />
         {/* <Route path="/Card_1" element={<Card1/>} />
         <Route path="/Card_2" element={<Card2/>} />
         <Route path="/Card_4" element={<Card4/>} /> */}
