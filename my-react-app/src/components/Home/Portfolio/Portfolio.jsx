@@ -8,17 +8,15 @@ const ProfileComponent = () => {
         <ul>
           <li>Home</li>
           <li>About</li>
-          <li>Services</li>
           <li>Portfolio</li>
-          <li>Resume</li>
-          <li>Blog</li>
-          <li>Contact</li>
+          {/* <li>Resume</li> */}
+          {/* <li>Services</li> */}
         </ul>
       </nav>
 
       <div className="profile-content">
         <div className="profile-text">
-          <h2>Hello</h2>
+          <h2>---- Hello</h2>
           <h1>
             I'm <span className="highlight-text">Sanket Godse</span>
           </h1>
@@ -35,8 +33,8 @@ const ProfileComponent = () => {
       <footer className="profile-footer">
         <ul className="social-links">
           <li>Instagram</li>
-          <li>Facebook</li>
-          <li>Tumblr</li>
+          <li>Linkedin</li>
+          <li>Github</li>
           <li>Twitter</li>
         </ul>
       </footer>
