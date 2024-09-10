@@ -11,7 +11,7 @@ body {
     justify-content: space-between;
     /* min-height: 100vh; */
     height: 100%;
-    background-color: #f5ece1;
+    background-color: #f9f4ee;
     /* padding: 00.3rem; */
     /* position: relative; */
     /* margin: 0.1rem; */
@@ -51,6 +51,7 @@ body {
     /* background-color: #ff4a57; */
     justify-content: center;
     align-items: center;
+    gap: 1rem;
     /* max-width: 1200px; */
     width: 100%;
     /* width: 100%; */
@@ -63,7 +64,7 @@ body {
   }
   
   .profile-text h2 {
-    font-size: 24px;
+    font-size: 0.21rem;
     margin-bottom: 10px;
   }
   
@@ -74,7 +75,8 @@ body {
   
   .highlight-text {
     font-family: "Roboto", sans-serif;
-    font-weight: 900;
+    font-weight: 600;
+    font-size: 00.7rem;
     font-style: normal;
     color: #ff4a57;
   }
@@ -92,7 +94,7 @@ body {
     background-color: #ff4a57;
     color: white;
     border: none;
-    padding: 12px 24px;
+    /* padding: 12px 24px; */
     font-size: 18px;
     margin-top: 20px;
     cursor: pointer;
@@ -103,7 +105,7 @@ body {
     border: none;
     padding: 12px 24px;
     font-size: 18px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     text-decoration: none;
     cursor: pointer;
   }
@@ -116,6 +118,7 @@ body {
   .profile-footer {
     /* position: absolute; */
     bottom: 20px;
+    margin-bottom: 0.20rem;
   }
   
   .social-links {
@@ -134,7 +137,7 @@ body {
   }
   
 
-
+/* ============================================================================================================ */
 /* Tablet Devices (768px - 1024px) */
 @media (max-width: 1024px) {
     .navbar ul {
@@ -144,7 +147,7 @@ body {
     .profile-content {
       /* flex-direction: column; */
       text-align: center;
-      margin: 0.2rem;
+      /* margin: 0.2rem; */
 
     }
   
@@ -162,15 +165,15 @@ body {
   
     .profile-image img {
       max-width: 300px;
-      margin-top: 20px;
+      /* margin-top: 20px; */
     }
   
     .cv-button {
-      padding: 10px 20px;
+      /* padding: 10px 20px; */
       font-size: 16px;
     }
   }
-  
+  /* ============================================================================================================ */
   /* Mobile Devices (480px - 767px) */
   @media (max-width: 767px) {
     .navbar ul {
@@ -203,30 +206,39 @@ body {
     }
   
     .cv-button {
-      padding: 8px 16px;
+      /* padding: 8px 16px; */
       font-size: 0.14rem;
     }
   }
-  
+
+
+  /* ============================================================================================================ */
   /* Small Mobile Devices (less than 480px) */
   @media (max-width: 480px) {
+    .navbar{
+      margin-top: 20px;
+    }
     .navbar ul {
       gap: 0.3rem;
-      font-size: 0.1rem;
     }
     .navbar ul li{
-        font-size: 0.2rem;
+        font-size: 0.21rem;
       }
-  
+      .navbar ul li a{
+        font-size: 0.21rem;
+      }
+      .profile-content{
+        gap: 0.05rem;
+      }
     .profile-text h1 {
-      font-size: 0.22rem;
+      font-size: 0.21rem;
     }
     .highlight-text {
         font-size: 0.3rem;
     }
   
     .profile-text p {
-      font-size: 0.12rem;
+      font-size: 0.16rem;
     }
   
     .profile-image img {
@@ -234,8 +246,23 @@ body {
     }
   
     .cv-button {
-      padding: 6px 12px;
-      font-size: 0.12rem;
+      background-color: #ff4a57;
+      color: white;
+      border: none;
+      /* padding: 12px 24px; */
+      font-size: 0.21rem;
+      /* margin-top: 20px; */
+      cursor: pointer;
+    }
+    .cv-button a{
+      background-color: #ff4a57;
+      color: white;
+      border: none;
+      /* padding: 12px 24px; */
+      font-size: 0.21rem;
+      /* margin-top: 20px; */
+      text-decoration: none;
+      cursor: pointer;
     }
   
     .profile-footer {
@@ -249,7 +276,7 @@ body {
     .social-links li {
         cursor: pointer;
         font-weight: bold;
-        font-size: 0.12rem;
+        font-size: 0.16rem;
         color: gray;
       }
   }

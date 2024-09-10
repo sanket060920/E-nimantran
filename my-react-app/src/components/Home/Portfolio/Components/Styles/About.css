@@ -4,12 +4,51 @@
     flex-direction: column;
     justify-content: center;
     align-items:center ;
+    margin:0 1rem 0 1rem;
 }
-.About_heading{
-    font-size: 00.5rem;
+.Summary{
+    text-align: center;
+}
+.Summary_heading{
+    background-color: aliceblue;
+    font-size: 00.21rem;
+    color: brown;
+    bottom: 00.12rem;
+    margin: 00.21rem;
+
+}
+.Summary_para{
+    font-size: 00.16rem;
+    text-align: center;
+    top: 30px;
     color: brown;
 }
-.About_para{
-    font-size: 00.3rem;
+
+.Skills{
+    text-align: center;
+    gap: 0.2rem;
+}
+.Skills_heading{
+    font-size: 00.21rem;
     color: brown;
+    margin: 00.21rem;
+}
+.Skills_para{
+    font-size: 00.16rem;
+    text-align: center;
+    top: 30px;
+    color: brown;
+}
+
+@media (max-width: 480px) {
+    .About_content{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center ;
+        margin: 0.2rem 0.5rem 0 0.5rem;
+        gap: 0.3rem;
+    }
+    
 }
